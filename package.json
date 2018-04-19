@@ -16,6 +16,7 @@
   "author": "Mike Saelens",
   "license": "ISC",
   "dependencies": {
+    "day-of-week": "^1.0.4",
     "googleapis": "^28.1.0"
   }
 }
