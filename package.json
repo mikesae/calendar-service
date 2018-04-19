@@ -4,7 +4,8 @@
   "description": "service to service",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,13 @@
   "author": "Mike Saelens",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "day-of-week": "^1.0.4",
-    "googleapis": "^28.1.0"
+    "express": "^4.16.3",
+    "googleapis": "^28.1.0",
+    "mongoose": "^5.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
   }
 }
